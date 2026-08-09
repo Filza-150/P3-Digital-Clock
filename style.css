@@ -26,12 +26,11 @@
 .clock-line {
   position: absolute;
 
-  width: 10px;
+  width: 9px;
   height: 100%;
   border-radius: 3px;
   background-color: transparent;
   border: 2px solid #fdfdfd;
-  border-bottom: none;
   /* background-color: aqua; */
   left: 50%;
   top: 0;
@@ -60,9 +59,19 @@
   transform: translateX(-50%) rotate(150deg);
 }
 .center {
-  width: 250px;
-  height: 250px;
-  background-color: black;
+  width: 335px;
+  height: 335px;
+  /* background-color: black; */
+   background: radial-gradient(
+        circle,
+        black 52%,
+        rgba(0, 0, 0, 0.993) 20%,
+        rgba(0, 0, 0, 0.925) 13%,
+        rgba(0, 0, 0, 0.801) 10%,
+        rgba(0, 0, 0, 0.644) 5%,
+
+        transparent 70%
+    );
   border-radius: 50%;
   position: absolute;
   top: 50%;
